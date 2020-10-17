@@ -233,9 +233,15 @@
     <Compile Include="Configuration\IConfigurationAppService.cs" />
     <Compile Include="Configuration\Ui\UiThemeInfo.cs" />
     <Compile Include="Configuration\Ui\UiThemes.cs" />
+    <Compile Include="Features\Clientes\ClienteAppService.cs" />
+    <Compile Include="Features\Clientes\Dto\ClienteDto.cs" />
+    <Compile Include="Features\Clientes\IClienteAppService.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\EditTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\TenantDto.cs" />
+    <Compile Include="Features\Productos\Dto\ProductoDto.cs" />
+    <Compile Include="Features\Productos\IProductoAppService.cs" />
+    <Compile Include="Features\Productos\ProductoAppService.cs" />
     <Compile Include="MultiTenancy\ITenantAppService.cs" />
     <Compile Include="MultiTenancy\TenantAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -265,6 +271,7 @@
       <Name>CourseDotNet.Class2.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

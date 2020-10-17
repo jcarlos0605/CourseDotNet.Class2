@@ -4,7 +4,7 @@ using Abp.DynamicEntityParameters;
 using Abp.Zero.EntityFramework;
 using CourseDotNet.Class2.Authorization.Roles;
 using CourseDotNet.Class2.Authorization.Users;
-using CourseDotNet.Class2.Features.clientes;
+using CourseDotNet.Class2.Features.Clientes;
 using CourseDotNet.Class2.Features.producto;
 using CourseDotNet.Class2.MultiTenancy;
 
